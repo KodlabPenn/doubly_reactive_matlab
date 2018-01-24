@@ -1,5 +1,5 @@
 # doubly_reactive_matlab
-A MATLAB-ROS implementation of a doubly-reactive, sensor-based homing algorithm for Minitaur, using a LIDAR and range-only target localization. 
+A MATLAB-ROS implementation of a doubly-reactive, sensor-based homing algorithm for Minitaur, using a LIDAR and range-only target localization.
 
 ## Relevant publications and packages
 The scripts included in this package were used in the paper:
@@ -9,7 +9,7 @@ The doubly-reactive operations and the functions included here are based on the 
 * Arslan, O., and Koditschek, D. E., "Exact Robot Navigation using Power Diagrams", *IEEE International Conference on Robotics and Automation* (ICRA '16), 2016, pp. 1-8.
 * Arslan, O., and Koditschek, D. E., "Sensor-based Reactive Navigation in Unknown Convex Sphere Worlds", *The 12th International Workshop on the Algorithmic Foundations of Robotics* (WAFR), 2016.
 
-Check [here](https://github.com/vvasilo/pulson_ros) for the ROS wrapper for the PulsON P440 and P410 ultra-wideband radios from Time Domain.
+Check [here](https://github.com/vvasilo/pulson_ros) for the ROS wrapper for the PulsON P440 and P410 ultra-wideband radios from Time Domain that publishes `/minitaur/ranges/ranges`.
 
 ## Preliminaries
 The main script is `ros_doubly_reactive.m` and `startupROS.m` needs to be run first for initialization. 
